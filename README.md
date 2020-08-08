@@ -54,9 +54,9 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 ###  WEB
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/study-page.png" width="400px" height="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/study-page.png" width="100%">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/give-classes-fullpage.png" width="400px" height="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/give-classes-fullpage.png" width="100%">
 </p>
 
 
@@ -124,17 +124,25 @@ $ npm start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
-- **[Express](https://expressjs.com/)**
-- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
-- **[JavaScript](https://www.javascript.com)**
-- **[NodeJS](https://nodejs.org/en/)**
-- **[Nodemon](https://github.com/remy/nodemon)**
-- **[Nunjucks](https://github.com/mozilla/nunjucks)**
-- **[SQLite](https://www.sqlite.org/index.html)**
-- **[Sqlite-async](https://www.npmjs.com/package/sqlite-async)**
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
-> Veja o arquivo  [package.json](https://github.com/grioos/proffy/blob/master/package.json)
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[React Dom](https://pt-br.reactjs.org/docs/react-dom.html)**
+-   **[React Scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/web/package.json)
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/server/package.json)
 
 ---
 ## 💪 Como contribuir para o projeto
