@@ -33,6 +33,7 @@
 
 <p align="center">
 	<a href="#-sobre-o-projeto">Sobre</a> •
+ 	<a href="#-funcionalidades">Funcionalidades</a> •
 	<a href="#-layout">Layout</a> • 
  	<a href="#-como-executar-o-projeto">Como executar</a> • 
   <a href="#-tecnologias">Tecnologias</a> • 
@@ -49,16 +50,42 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 
 ---
 
+## ⚙️ Funcionalidades
+
+- [x] Professores podem se cadastrar na plataforma web enviando:
+  - [x] uma imagem do professor
+  - [x] nome, bio e whatsapp
+  - [x] e o horário e dia para dar sua aula 
+  - [x] além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
+    - Artes
+    - Biologia
+    - Ciências
+    - Educação física
+    - Geografia
+    - História
+    - Matemática
+    - Português
+    - Química
+
+- [x] Os alunos tem acesso ao aplicativo, onde podem:
+  - [x] navegar pelo app para ver os professores cadastrados
+  - [x] entrar em contato com o professor através do WhatsApp
+
+---
+
 ## 🎨 Layout
 
-###  WEB
+###  Página de listagem dos professores
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/study-page.png" width="100%">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/give-classes-fullpage.png" width="100%">
+  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
 </p>
 
+###  Página de cadastro dos professores
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
+</p>
 
 ---
 
