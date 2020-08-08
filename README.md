@@ -4,7 +4,7 @@
 </h1>
 
 <h3 align="center">
-    📝 Sua plataforma de estudos online
+    📝 Plataforma de educação para conectar professores com alunos.
 </h3>
 
 <p align="center">
@@ -43,7 +43,7 @@
 
 ## 💻 Sobre o projeto
 
-🏫 Proffy - É uma plataforma onde você pode estudar ou dar aulas. Um professor colocando seu dados, a matéria que quer ensinar, e escolher o melhor horário para dar a sua aula. Assim, os dados cadastrados ficaram disponíveis no site onde alunos podem escolher o professor que melhor se encaixa na em suas preferências.
+📚 Proffy - A proposta do projeto é uma aplicação que possa ligar quem deseja aprender, com quer ensinar, de uma forma simples e prática.
 
 Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rocketseat](https://rocketseat.com.br/).
 
@@ -51,17 +51,14 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 
 ## 🎨 Layout
 
-###  Página de listagem dos professores
+###  WEB
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/study-page.png" width="400px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/screenshots/give-classes-fullpage.png" width="400px">
 </p>
 
-###  Página de cadastro dos professores
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
-</p>
 
 ---
 
