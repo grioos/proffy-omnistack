@@ -140,7 +140,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[KnexJS](http://knexjs.org/)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
+-   **[Ts-node](https://github.com/TypeStrong/ts-node)**
 
 > Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/server/package.json)
 
