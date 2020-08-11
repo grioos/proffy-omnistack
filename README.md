@@ -1,10 +1,10 @@
 
 <h1 align="center" >
-    <img alt="Logo Proffy" src="/public/images/logo.png" />
+    <img alt="Logo Proffy" src="/.github/screenshots/logo.png" />
 </h1>
 
 <h3 align="center">
-    📝 Sua plataforma de estudos online
+    📝 Plataforma de educação para conectar professores com alunos.
 </h3>
 
 <p align="center">
@@ -24,7 +24,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="NextLevelWeek#02" title="#NextLevelWeek#02" src="/public/images/home-page.png" />
+    <img alt="NextLevelWeek#02" title="#NextLevelWeek#02" src="/.github/screenshots/home-page.png" />
 </h1>
 
 <h4 align="center"> 
@@ -33,9 +33,10 @@
 
 <p align="center">
 	<a href="#-sobre-o-projeto">Sobre</a> •
+ 	<a href="#-funcionalidades">Funcionalidades</a> •
 	<a href="#-layout">Layout</a> • 
  	<a href="#-como-executar-o-projeto">Como executar</a> • 
-  <a href="#-tecnologias">Tecnologias</a> • 
+  	<a href="#-tecnologias">Tecnologias</a> • 
  	<a href="#-autor">Autor</a> • 
  	<a href="#user-content--licença">Licença</a>
 </p>
@@ -43,9 +44,32 @@
 
 ## 💻 Sobre o projeto
 
-🏫 Proffy - É uma plataforma onde você pode estudar ou dar aulas. Um professor colocando seu dados, a matéria que quer ensinar, e escolher o melhor horário para dar a sua aula. Assim, os dados cadastrados ficaram disponíveis no site onde alunos podem escolher o professor que melhor se encaixa na em suas preferências.
+📚 Proffy - A proposta do projeto é uma aplicação que possa ligar quem deseja aprender, com quer ensinar, de uma forma simples e prática.
 
 Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rocketseat](https://rocketseat.com.br/).
+
+---
+
+## ⚙️ Funcionalidades
+
+- [x] Professores podem se cadastrar na plataforma web enviando:
+  - [x] uma imagem do professor
+  - [x] nome, bio e whatsapp
+  - [x] e o horário e dia para dar sua aula 
+  - [x] além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
+    - Artes
+    - Biologia
+    - Ciências
+    - Educação física
+    - Geografia
+    - História
+    - Matemática
+    - Português
+    - Química
+
+- [x] Os alunos tem acesso ao aplicativo, onde podem:
+  - [x] navegar pelo app para ver os professores cadastrados
+  - [x] entrar em contato com o professor através do WhatsApp
 
 ---
 
@@ -54,13 +78,13 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 ###  Página de listagem dos professores
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/public/images/study-page.png" width="100%">
+  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
 </p>
 
 ###  Página de cadastro dos professores
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/public/images/give-classes-fullpage.png" width="100%">
+  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
 </p>
 
 ---
@@ -127,17 +151,25 @@ $ npm start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
-- **[Express](https://expressjs.com/)**
-- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
-- **[JavaScript](https://www.javascript.com)**
-- **[NodeJS](https://nodejs.org/en/)**
-- **[Nodemon](https://github.com/remy/nodemon)**
-- **[Nunjucks](https://github.com/mozilla/nunjucks)**
-- **[SQLite](https://www.sqlite.org/index.html)**
-- **[Sqlite-async](https://www.npmjs.com/package/sqlite-async)**
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
-> Veja o arquivo  [package.json](https://github.com/grioos/proffy/blob/master/package.json)
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[React Dom](https://pt-br.reactjs.org/docs/react-dom.html)**
+-   **[React Scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/web/package.json)
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+-   **[Ts-node](https://github.com/TypeStrong/ts-node)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/server/package.json)
 
 ---
 ## 💪 Como contribuir para o projeto
@@ -163,6 +195,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE.md).
+Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito por Gabriel Rios 👋🏻 [Entre em contato!](https://www.linkedin.com/in/grioos/)
