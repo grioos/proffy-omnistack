@@ -6,8 +6,9 @@ import { Feather } from '@expo/vector-icons'
 import PageHeader from '../../components/PageHeader'
 import TeacherItem, { Teacher } from '../../components/TeacherItem'
 
-import styles from './styles'
 import api from '../../services/api'
+
+import styles from './styles'
 
 function TeacherList() {
     const [teachers, setTeachers] = useState([])
