@@ -9,8 +9,10 @@ const { Navigator, Screen } = createBottomTabNavigator()
 function StudyTabs() {
     return (
         <Navigator>
-            <Screen name="" component={TeacherList} />
-            <Screen name="" component={Favorites} />
+            <Screen name="TeacherList" component={TeacherList} />
+            <Screen name="Favorites" component={Favorites} />
         </Navigator>
     )
 }
+
+export default StudyTabs
