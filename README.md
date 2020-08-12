@@ -75,13 +75,13 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 
 ## 🎨 Layout
 
-###  Página de listagem dos professores
+###  Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
 </p>
 
-###  Página de cadastro dos professores
+###  Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
