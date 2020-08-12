@@ -53,10 +53,10 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 ## ⚙️ Funcionalidades
 
 - [x] Professores podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do professor
-  - [x] nome, bio e whatsapp
-  - [x] e o horário e dia para dar sua aula 
-  - [x] além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
+  - [x] Uma imagem do professor
+  - [x] Nome, bio e whatsapp
+  - [x] E o horário e dia para dar sua aula 
+  - [x] Além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
     - Artes
     - Biologia
     - Ciências
@@ -68,8 +68,8 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
     - Química
 
 - [x] Os alunos tem acesso ao aplicativo, onde podem:
-  - [x] navegar pelo app para ver os professores cadastrados
-  - [x] entrar em contato com o professor através do WhatsApp
+  - [x] Navegar pelo app para ver os professores cadastrados
+  - [x] Entrar em contato com o professor através do WhatsApp
 
 ---
 
