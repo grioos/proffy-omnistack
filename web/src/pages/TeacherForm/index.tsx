@@ -55,7 +55,7 @@ function TeacherForm() {
             whatsapp,
             bio,
             subject,
-            cost: Number(cost),
+            cost,
             schedule: scheduleItems
         }).then(() => {
             alert('Cadastro realizado com sucesso!')
