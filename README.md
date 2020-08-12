@@ -94,7 +94,7 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 Este projeto é divido em três partes:
 1. Backend (pasta server) 
 2. Frontend (pasta web)
-
+3. Mobile (pasta mobile)
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
