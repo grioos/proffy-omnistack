@@ -46,10 +46,10 @@ function TeacherForm() {
         setScheduleItems(updatedScheduleItems)
     }
 
-    function handleCreateClass(e: FormEvent) {
+    async function handleCreateClass(e: FormEvent) {
         e.preventDefault()
 
-        api.post('classes', {
+        await api.post('classes', {
             name,
             avatar,
             whatsapp,
@@ -63,16 +63,6 @@ function TeacherForm() {
             history.push('/')
         }).catch(() => {
             alert('Erro na hora do cadastro')
-        })
-
-        console.log({
-            avatar,
-            bio,
-            cost,
-            name,
-            subject,
-            whatsapp,
-            scheduleItems
         })
     }
 
@@ -92,6 +82,7 @@ function TeacherForm() {
                         <Input
                             name="name"
                             label="Nome completo"
+                            type="text"
                             value={name}
                             onChange={(e) => { setName( e.target.value ) }}
                         />
@@ -99,6 +90,7 @@ function TeacherForm() {
                         <Input 
                             name="avatar" 
                             label="Avatar" 
+                            type="text"
                             value={avatar}
                             onChange={(e) => { setAvatar( e.target.value ) }}
                         />
@@ -106,6 +98,7 @@ function TeacherForm() {
                         <Input 
                             name="whatsapp" 
                             label="WhatsApp" 
+                            type="text"
                             value={whatsapp}
                             onChange={(e) => { setWhatsapp( e.target.value ) }}
                         />
@@ -142,7 +135,8 @@ function TeacherForm() {
                         
                         <Input 
                             name="cost" 
-                            label="Custo da sua hora por aula" 
+                            label="Custo da sua hora por aula"
+                            type="text" 
                             value={cost}
                             onChange={(e) => { setCost( e.target.value ) }}
                         />
@@ -165,13 +159,13 @@ function TeacherForm() {
                                         value={scheduleItem.week_day}
                                         onChange={ e => setScheduleItemValue( index, 'week_day', e.target.value )}
                                         options={[
-                                            { value: '0', label: 'Domingo'},
-                                            { value: '1', label: 'Segunda-feira'},
-                                            { value: '2', label: 'Terça-feira'},
-                                            { value: '3', label: 'Quarta-feira'},
-                                            { value: '4', label: 'Quinta-feira'},
-                                            { value: '5', label: 'Sexta-feira'},
-                                            { value: '6', label: 'Sábado'},
+                                            { value: '0', label: 'Domingo' },
+                                            { value: '1', label: 'Segunda-feira' },
+                                            { value: '2', label: 'Terça-feira' },
+                                            { value: '3', label: 'Quarta-feira' },
+                                            { value: '4', label: 'Quinta-feira' },
+                                            { value: '5', label: 'Sexta-feira' },
+                                            { value: '6', label: 'Sábado' },
                                         ]}
                                     />
             
@@ -193,7 +187,6 @@ function TeacherForm() {
                                 </div>
                             )
                         })}
-    
                     </fieldset>
                     <footer>
                         <p>
