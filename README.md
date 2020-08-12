@@ -145,6 +145,27 @@ $ npm start
 
 ```
 
+#### 📱 Rodando a aplicação mobile (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/grioos/proffy-omnistack
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd proffy-omnistack
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm i
+
+# Execute a aplicação
+$ npm start
+
+# A aplicação abrirá uma página com QR code onde você pode scanear com seu aparelho ou abrir com seu emulador
+
 ---
 
 ## 🛠 Tecnologias
