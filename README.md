@@ -53,10 +53,10 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 ## ⚙️ Funcionalidades
 
 - [x] Professores podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do professor
-  - [x] nome, bio e whatsapp
-  - [x] e o horário e dia para dar sua aula 
-  - [x] além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
+  - [x] Uma imagem do professor
+  - [x] Nome, bio e whatsapp
+  - [x] E o horário e dia para dar sua aula 
+  - [x] Além de selecionar a matéria e o custo da sua hora/aula. Entre as matérias de escolha estão: 
     - Artes
     - Biologia
     - Ciências
@@ -68,20 +68,20 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
     - Química
 
 - [x] Os alunos tem acesso ao aplicativo, onde podem:
-  - [x] navegar pelo app para ver os professores cadastrados
-  - [x] entrar em contato com o professor através do WhatsApp
+  - [x] Navegar pelo app para ver os professores cadastrados
+  - [x] Entrar em contato com o professor através do WhatsApp
 
 ---
 
 ## 🎨 Layout
 
-###  Página de listagem dos professores
+###  Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
 </p>
 
-###  Página de cadastro dos professores
+###  Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
@@ -94,7 +94,7 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 Este projeto é divido em três partes:
 1. Backend (pasta server) 
 2. Frontend (pasta web)
-
+3. Mobile (pasta mobile)
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -145,6 +145,29 @@ $ npm start
 
 ```
 
+#### 📱 Rodando a aplicação mobile (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/grioos/proffy-omnistack
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd proffy-omnistack
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm i
+
+# Execute a aplicação
+$ npm start
+
+# A aplicação abrirá uma página com QR code onde você pode scanear com seu aparelho ou abrir com seu emulador
+
+```
+
 ---
 
 ## 🛠 Tecnologias
@@ -171,6 +194,25 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 > Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/server/package.json)
 
+#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Expo](https://expo.io/)**
+-   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+-   **[React Navigation](https://reactnavigation.org/)**
+-   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
+-   **[React Dom](https://github.com/facebook/react/tree/master/packages/react-dom)**
+-   **[React Native Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler)**
+-   **[React Native Reanimated](https://github.com/software-mansion/react-native-reanimated)**
+-   **[React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context)**
+-   **[React Native Screens](https://github.com/software-mansion/react-native-screens)**
+-   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
+-   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Expo Status Bar](https://www.npmjs.com/package/expo-status-bar)**
+-   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
+-   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/mobile/package.json)
 ---
 ## 💪 Como contribuir para o projeto
 
