@@ -164,7 +164,7 @@ $ npm i
 # Execute a aplicação
 $ npm start
 
-# A aplicação abrirá uma página com QR code onde você pode scanear com seu aparelho ou abrir com seu emulador
+# Uma página com QR code abrirá onde você pode scanear com seu aparelho ou abrir com seu emulador
 
 ```
 
