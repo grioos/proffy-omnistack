@@ -166,6 +166,8 @@ $ npm start
 
 # A aplicação abrirá uma página com QR code onde você pode scanear com seu aparelho ou abrir com seu emulador
 
+```
+
 ---
 
 ## 🛠 Tecnologias
