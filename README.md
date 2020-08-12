@@ -194,6 +194,25 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 > Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/server/package.json)
 
+#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Expo](https://expo.io/)**
+-   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+-   **[React Navigation](https://reactnavigation.org/)**
+-   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
+-   **[React Dom](https://github.com/facebook/react/tree/master/packages/react-dom)**
+-   **[React Native Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler)**
+-   **[React Native Reanimated](https://github.com/software-mansion/react-native-reanimated)**
+-   **[React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context)**
+-   **[React Native Screens](https://github.com/software-mansion/react-native-screens)**
+-   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
+-   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Expo Status Bar](https://www.npmjs.com/package/expo-status-bar)**
+-   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
+-   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
+
+> Veja o arquivo  [package.json](https://github.com/grioos/proffy-omnistack/blob/master/mobile/package.json)
 ---
 ## 💪 Como contribuir para o projeto
 
