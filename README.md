@@ -77,14 +77,20 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 
 ###  Mobile
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/study-page.png" width="100%">
+<p align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/landing-mobile.png" width="200px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/give-classes-mobile.png" width="200px">
+  
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/teacher-list-mobile.png" width="200px">
 </p>
 
-###  Web
+### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	<img alt="Página de cadastro de vídeo" src="/.github/screenshots/give-classes-fullpage.png" width="100%">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/study-page.png" width="400px">
+	
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/give-classes.png" width="400px">
 </p>
 
 ---
