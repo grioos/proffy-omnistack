@@ -90,7 +90,7 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/study-page.png" width="400px">
 	
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/teacher-list.png" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/teacher-register.png" width="400px">
 </p>
 
 ---
