@@ -86,9 +86,9 @@ Projeto desenvolvido durante a **NLW - Next Level Week#02** oferecida pela [Rock
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/give-classes-fullpage.png" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/give-classes-fullpage.png" width="400px" height="250px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/study-page.png" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/.github/screenshots/study-page.png" width="400px" height="250px">
 </p>
 
 ---
