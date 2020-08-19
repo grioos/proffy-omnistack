@@ -106,7 +106,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🎲 Rodando o Backend (servidor)
+#### 🎲 Rodando o Backend
 
 ```bash
 
@@ -128,7 +128,7 @@ $ npm start
 # O servidor inciará na porta:5500 - acesse http://localhost:3333 
 ```
 
-#### 🧭 Rodando a aplicação web (Frontend)
+#### 🧭 Rodando a aplicação web
 
 ```bash
 
@@ -151,7 +151,7 @@ $ npm start
 
 ```
 
-#### 📱 Rodando a aplicação mobile (Frontend)
+#### 📱 Rodando a aplicação mobile
 
 ```bash
 
